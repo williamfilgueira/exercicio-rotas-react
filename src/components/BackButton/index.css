@@ -1,0 +1,21 @@
+.area-button{
+    width: 100%;
+    margin-top: 100px;
+   
+  }
+  
+  .back-button {
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #f7df1e;
+    color: #000;
+    font-weight: 700;
+     box-shadow: 2px 1px 4px 1px rgb(153, 151, 151);
+    transition: 0.3s;
+  }
+
+.back-button:hover{
+    background-color:#000 ;
+    color: #f7df1e;
+}

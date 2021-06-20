@@ -1,0 +1,55 @@
+.conteudo-opcoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px dotted;
+    width:400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 1px 2px 1px rgb(36, 34, 34) ;
+    color: rgb(70, 70, 39);
+    
+  }
+  
+  .conteudo-opcoes a {
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    
+  }
+
+  h1{
+    text-shadow: 2px 2px 2px rgb(15, 15, 15);
+    color: rgb(172, 172, 165);
+  }
+  
+  .option-front-end{
+    background-color: #61dafb;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    margin-bottom: 10px;
+    box-shadow: 2px 1px 4px 1px rgb(153, 151, 151);
+    transition: 0.3s;
+  }
+  
+  .option-back-end{
+    background-color: #860400;
+    color: #fff;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    box-shadow: 2px 1px 4px 1px rgb(153, 151, 151);
+    transition: 0.3s;
+
+}
+
+.option-front-end:hover{
+    background-color: #fff;
+    color: #61dafb; 
+}
+.option-back-end:hover{
+    background-color: #fff;
+    color: #860400; 
+}
